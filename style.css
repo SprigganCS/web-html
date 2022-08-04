@@ -1,0 +1,73 @@
+body {
+    background-color: #fafbfc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #192a3d;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    line-height: 26px;
+    color: #3a4f66;
+}
+
+small{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #3a4f66
+}
+
+#nome{
+    margin-left: 15%;
+    margin-top: 2.25%;
+    font-size: 25px;
+}
+#name:hover{
+    color: #1559ed
+}
+#spriggan:hover{
+    color: #1559ed
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#container{
+    width: 70%;
+    height: 100%;
+    background-color: #000000;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+}
+
+.card{
+    margin: 15px;
+    width: 27%;
+    height: 270px;
+    background-color: #ffffff;
+    padding: 25px;
+    
+    float: left;
+    box-shadow: 2px 5px 10px -5px #ececec;
+    border-radius: 2px;
+}
+
+.card p{
+    text-align: left;
+    line-height: 1.75;
+}
+.card h2{
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+#autor{
+    margin-bottom: 0;
+}
+
