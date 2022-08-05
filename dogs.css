@@ -1,0 +1,49 @@
+body {
+    background-color: #fafbfc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #192a3d;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    line-height: 26px;
+    color: #3a4f66;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+small{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #3a4f66
+}
+
+#nome{
+    margin-left: 15%;
+    margin-top: 2.25%;
+    font-size: 25px;
+}
+
+#name:hover{
+    color: #1559ed
+}
+
+#container{
+    margin-top: 4.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52%;
+    height: 100%;
+}
+
+#head{
+    background-color: #ffffff;
+    padding: 1%;
+}
