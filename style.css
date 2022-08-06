@@ -1,0 +1,103 @@
+body {
+    background-color: #fafbfc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #192a3d;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    line-height: 26px;
+    color: #3a4f66;
+}
+
+small{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #3a4f66
+}
+
+.comecoefimcard:hover{
+    color: #1559ed;
+}
+#titulo:hover{
+    color: #1559ed;
+}
+
+#teste:hover{
+    color: #1559ed;
+}
+
+#nome{
+    margin-left: 15%;
+    margin-top: 2.25%;
+    font-size: 25px;
+}
+#name:hover{
+    color: #1559ed
+}
+#spriggan:hover{
+    color: #1559ed
+}
+.categoria:hover{
+    color: #1559ed
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#container{
+    width: 70%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.card{
+    margin: 15px;
+    width: 82%;
+    background-color: #ffffff;
+    padding: 25px;
+    box-shadow: 2px 5px 10px -5px #ececec;
+    border-radius: 2px;
+}
+
+.card p{
+    text-align: left;
+    line-height: 1.75;
+}
+.card h2{
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+#tag{
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#autor{
+
+}
+
+@media (max-width: 1450px) {
+    #nome {
+      margin-left: 10%;
+    }
+    #container {
+      width: 85%;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    p {
+      font-size: 0.9rem;
+    }
+}
