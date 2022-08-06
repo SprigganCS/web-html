@@ -54,21 +54,18 @@ a, a:hover, a:focus, a:active {
 #container{
     width: 70%;
     height: 100%;
-    background-color: #000000;
     margin-right: auto;
     margin-left: auto;
     margin-top: 90px;
-    min-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
 .card{
     margin: 15px;
-    width: 27%;
-    height: 290px;
+    width: 82%;
     background-color: #ffffff;
     padding: 25px;
-    
-    float: left;
     box-shadow: 2px 5px 10px -5px #ececec;
     border-radius: 2px;
 }
@@ -92,4 +89,15 @@ a, a:hover, a:focus, a:active {
     margin-bottom: 0;
 }
 
-
+@media (max-width: 1450px) {
+    #nome {
+      margin-left: 10%;
+    }
+    #container {
+      width: 85%;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    p {
+      font-size: 0.9rem;
+    }
+}
