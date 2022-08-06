@@ -39,13 +39,20 @@ small{
     object-fit: cover;
 }
 
+
+#out-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
 #container{
     margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
     width: 42%;
     height: 100%;
-    
 }
 
 #head{
