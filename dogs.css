@@ -1,76 +1,70 @@
 body {
     background-color: #fafbfc;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #192a3d;
     overflow-x: hidden;
-  }
-  
-  h2 {
+}
+
+h2{
     font-size: 20px;
-  }
-  
-  p {
+}
+
+p{
     line-height: 26px;
     color: #3a4f66;
-  }
-  
-  a,
-  a:hover,
-  a:focus,
-  a:active {
+}
+
+a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
-  }
-  
-  small {
+}
+
+small{
     font-size: 12px;
     font-weight: 600;
     line-height: 20px;
-    color: #3a4f66;
-  }
-  
-  #nome {
+    color: #3a4f66
+}
+
+#nome{
     margin-left: 15%;
     margin-top: 2.25%;
     font-size: 25px;
-  }
-  
-  #name:hover {
-    color: #1559ed;
-  }
-  
-  #milka {
+}
+
+#name:hover{
+    color: #1559ed
+}
+
+#milka{
     object-fit: cover;
-  }
-  
-  #out-container {
+}
+
+
+#out-container{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-  }
-  
-  #container {
+}
+
+#container{
     margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
     width: 42%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 0 15vw;
-  }
-  
-  #image-container {
-    width: 100%;
-  }
-  
-  #head {
+}
+
+#head{
     background-color: #ffffff;
     padding: 1%;
-  }
-  
-  @media (max-width: 1450px) {
+}
+
+
+
+
+@media (max-width: 1450px) {
     #nome {
       margin-left: 10%;
     }
@@ -81,29 +75,4 @@ body {
     p {
       font-size: 0.9rem;
     }
-    #container {
-      padding: 0 25vw;
-    }
-  }
-  
-  #img-3,
-  #img-2 {
-    gap: 0.5rem;
-  }
-  
-  #img-3 {
-    display: flex;
-    margin-bottom: 0.5rem;
-  }
-  
-  #img-3 > * {
-    width: calc(33.3% - 2.6px);
-  }
-  
-  #img-2 > * {
-    width: 50%;
-  }
-  
-  #img-2 {
-    display: flex;
-  }
+}
