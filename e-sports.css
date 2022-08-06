@@ -10,14 +10,18 @@ h2{
 }
 
 p{
-    line-height: 26px;
+    line-height: 29px;
     color: #3a4f66;
 }
 
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
+ul{
+    line-height: 32px;
+    color: #3a4f66
 }
+
+li {content: "•"; color: #3a4f66}
+
+
 
 small{
     font-size: 12px;
@@ -37,6 +41,10 @@ small{
 }
 
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
 #out-container{
     display: flex;
@@ -58,7 +66,14 @@ small{
     padding: 1%;
 }
 
+#link{
+    color: #1559ed;
+    text-decoration: underline;
+}
 
+img{
+    object-fit: cover;
+}
 
 
 @media (max-width: 1450px) {
