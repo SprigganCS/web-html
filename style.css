@@ -58,6 +58,7 @@ a, a:hover, a:focus, a:active {
     margin-right: auto;
     margin-left: auto;
     margin-top: 90px;
+    min-width: 1500px;
 }
 
 .card{
