@@ -53,8 +53,6 @@ small{
     margin-right: auto;
     width: 42%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 #head{
