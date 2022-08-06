@@ -35,8 +35,12 @@ small{
     color: #1559ed
 }
 
+#milka{
+    object-fit: cover;
+}
+
 #container{
-    margin-top: 4.5%;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
     width: 42%;
@@ -48,6 +52,8 @@ small{
     background-color: #ffffff;
     padding: 1%;
 }
+
+
 
 
 @media (max-width: 1450px) {
