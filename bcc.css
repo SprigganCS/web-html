@@ -1,0 +1,91 @@
+body {
+    background-color: #fafbfc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #192a3d;
+    overflow-x: hidden;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    line-height: 26px;
+    color: #3a4f66;
+}
+
+
+small{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #3a4f66
+}
+
+#nome{
+    margin-left: 15%;
+    margin-top: 1%;
+    font-size: 25px;
+}
+
+#titulo{
+    font-size: 30px;
+}
+
+#name:hover{
+    color: #1559ed
+}
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#out-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+#container{
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 100%;
+}
+
+#head{
+    background-color: #ffffff;
+    padding: 1%;
+}
+
+#link{
+    color: #1559ed;
+    text-decoration: underline;
+}
+
+img{
+    object-fit: cover;
+}
+
+#descricao{
+    text-align: center;
+    font-size: 14px;
+}
+
+
+@media (max-width: 1450px) {
+    #nome {
+      margin-left: 10%;
+    }
+    #container {
+      width: 85%;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    p {
+      font-size: 0.9rem;
+    }
+}
